@@ -11,6 +11,23 @@ A API tem um total de 6 endpoints, sendo em volta principalmente do usuário e a
 ### Listando usuários
 
 `GET /users - FORMATO DA RESPOSTA - STATUS 200`
+```json
+[
+  {
+    "email": "kenzinho@mail.com",
+    "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+    "name": "Kenzinho",
+    "id": 1
+  },
+  {
+    "email": "admin@mail.com",
+    "password": "$2a$10$7AvSvQKCcHvKKy03l0FIw.S0iH2616PkPv6MeVm99BW.fVOppk/r.",
+    "name": "admin",
+    "id": 2,
+    "isAdmin": true
+  }
+]
+```
 
 ### Cadastro
 
@@ -106,23 +123,34 @@ Após o usuário estar logado, ele deve conseguir visualizar as ONGs cadastradas
 
 ### Listando ONGs
 
-`GET /ongs - FORMATO DA REQUISIÇÃO`
+`GET /ongs - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 [
-  {
-    "email": "kenzinho@mail.com",
-    "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-    "name": "Kenzinho",
-    "id": 1
-  },
-  {
-    "email": "admin@mail.com",
-    "password": "$2a$10$7AvSvQKCcHvKKy03l0FIw.S0iH2616PkPv6MeVm99BW.fVOppk/r.",
-    "name": "admin",
-    "id": 2,
-    "isAdmin": true
-  }
+	{
+		"name": "Projeto TAMAR",
+		"id": 1,
+		"description": "É um projeto conservacionista brasileiro que atua na preservação das tartarugas-marinhas ameaçadas de extinção. É uma entidade de direito privado, sem fins lucrativos e fica sediado na Praia do Forte, no município de Mata de São João, no interior do estado da Bahia.",
+		"link": "https://www.tamar.org.br/",
+		"logo": "https://www.tamar.org.br/imagens/logo_tamar.jpg",
+		"userId": 2
+	},
+	{
+		"name": "PeTA",
+		"id": 2,
+		"description": "People for the Ethical Treatment of Animals (PeTA), em português: Pessoas pelo Tratamento Ético dos Animais, é uma organização não governamental de ambiente (ONGA) fundada em 1980, a qual já conta com mais de 2 milhões de membros e se dedica aos direitos animais, tendo como lema: 'Animais não são nossos para comer, vestir, usar em experiências ou para entretenimento' .",
+		"link": "https://www.peta.org/",
+		"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Peta_logo.svg/250px-Peta_logo.svg.png",
+		"userId": 2
+	},
+	{
+		"name": "AMPARA animal",
+		"id": 3,
+		"description": "Lutamos contra o abandono de animais domésticos e a negligência com os animais silvestres da nossa fauna. Não medimos esforços para amparar e dar suporte onde for necessário. Seja com suprimentos, tratamentos, campanhas de conscientização, ou até ir mata adentro para salvar vidas.",
+		"link": "https://amparanimal.org.br/",
+		"logo": "https://colabore-fichas-production.s3.amazonaws.com/og_image/1188/images/1249/og_image/main_AMPARAPrancheta_8_c%C3%B3pia_9_3x.png",
+		"userId": 2
+	}
 ]
 ```
 
