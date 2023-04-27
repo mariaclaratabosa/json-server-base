@@ -136,7 +136,7 @@ Apenas o admin consegue adicionar, editar e deletar ongs
 ]
 ```
 # Deletar ONG
-`DELETE /ongs:ongId - FORMATO DA REQUISIÇÃO`
+`DELETE /ongs/:ongId - FORMATO DA REQUISIÇÃO`
 ```
 Não é necessário um corpo da requisição.
 ```
