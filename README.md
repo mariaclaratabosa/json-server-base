@@ -76,8 +76,7 @@ A senha necessita de 8 caracteres.
 ```
 
 Email já cadastrado
-`POST /users - `
-` FORMATO DA RESPOSTA - STATUS 400`
+`POST /users - FORMATO DA RESPOSTA - STATUS 400`
 
 ```json
 {
