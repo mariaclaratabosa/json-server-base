@@ -26,7 +26,8 @@ Caso dê tudo certo, a resposta será assim:
 
 Caso você acabe errando e mandando algum campo errado, a resposta do erro será assim:
 No exemplo, a requisição foi feita faltando o campo "name".
-`POST /users - `
+
+`POST /users - FORMATO DA REQUISIÇÃO `
 `` FORMATO DA RESPOSTA - STATUS 400``
 ```json
 {
