@@ -20,8 +20,8 @@ Caso dê tudo certo, a resposta será assim:
 ``` json
 {
     "email": "maria@mail.com",
-    "password": "maria",
-    "name": "maria10*"
+    "name": "maria",
+    "password": "maria10*"
 }
 ```
 
