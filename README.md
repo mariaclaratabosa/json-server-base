@@ -63,7 +63,7 @@ Email já cadastrado
 }
 ```
 
-## Login
+### Login
 
 `POST /login - FORMATO DA REQUISIÇÃO`
 
@@ -120,7 +120,7 @@ Após o usuário estar logado, ele deve conseguir visualizar as ONGs cadastradas
 
 Apenas o admin consegue adicionar, editar e deletar ongs
 
-# Cadastro de ONGs
+### Cadastro de ONGs
 
 `POST /ongs - FORMATO DA REQUISIÇÃO`
 
@@ -149,7 +149,7 @@ Caso tudo dê certo, a resposta será assim:
   }
 ```
 
-# Editar ONGs
+### Editar ONGs
 
 `PATCH /ongs/:ongId - FORMATO DA REQUISIÇÃO`
 
@@ -176,7 +176,7 @@ Caso tudo dê certo, a resposta será assim:
   }
 ```
 
-# Deletar ONG
+### Deletar ONG
 
 `DELETE /ongs/:ongId - FORMATO DA REQUISIÇÃO`
 
