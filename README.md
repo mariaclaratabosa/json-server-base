@@ -139,5 +139,5 @@ json
 # Deletar ONG
 `DELETE /ongs:ongId - FORMATO DA REQUISIÇÃO`
 ```
-Não é necessário um cOrpo da requisição.
+Não é necessário um corpo da requisição.
 ```
