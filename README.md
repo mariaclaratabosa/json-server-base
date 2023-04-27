@@ -115,8 +115,7 @@ Apenas o admin consegue adicionar, editar e deletar ongs
 
 # Cadastro de ONGs
 `POST /ongs - FORMATO DA REQUISIÇÃO`
-```
-json
+```json
 [
     {
         
@@ -127,8 +126,7 @@ json
 
 # Editar ONGs
 `PATCH /ongs/:ongId - FORMATO DA REQUISIÇÃO`
-```
-json
+```json
 [
     {
         "name": "Projeto TAMAR",
