@@ -25,10 +25,9 @@ Caso dê tudo certo, a resposta será assim:
 }
 
 Caso você acabe errando e mandando algum campo errado, a resposta do erro será assim:
-No exemplo, a requisição foi feita faltando o campo "name".
+No exemplo, a requisição foi feita faltando o campo name.
 
-`POST /users - FORMATO DA REQUISIÇÃO `
-`` FORMATO DA RESPOSTA - STATUS 400``
+`POST /users - FORMATO DA RESPOSTA - STATUS 400 `
 ```json
 {
     "status": "error",
@@ -39,8 +38,8 @@ No exemplo, a requisição foi feita faltando o campo "name".
 ```
 
 A senha necessita de 8 caracteres.
-`POST /users - `
-`` FORMATO DA RESPOSTA - STATUS 400``
+`POST /users - FORMATO DA RESPOSTA - STATUS 400`
+
 ```json
 {
     "status": "error",
@@ -140,24 +139,5 @@ json
 # Deletar ONG
 `DELETE /ongs:ongId - FORMATO DA REQUISIÇÃO`
 ```
-Não é necessário um crpo da reuqisição
+Não é necessário um cOrpo da requisição.
 ```
-
-
-
-
-
-POST /register <br/>
-POST /signup <br/>
-POST /users
-
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
-
-### Login
-
-POST /login <br/>
-POST /signin
-
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
