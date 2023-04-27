@@ -23,6 +23,7 @@ Caso dê tudo certo, a resposta será assim:
     "password": "maria",
     "name": "maria10*"
 }
+```
 
 Caso você acabe errando e mandando algum campo errado, a resposta do erro será assim:
 No exemplo, a requisição foi feita faltando o campo name.
