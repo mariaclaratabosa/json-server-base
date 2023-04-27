@@ -4,7 +4,7 @@ Esse é o backend da aplicação HelPets - Uma interface voltada para doação p
 
 ## Endpoints
 
-A API tem um total de 6 endpoints, sendo em volta principalmente do usuário e admin, onde o usuário pode cadastrar e logar, já o admin pode adicionar novas ONGs, editar as ONGs já existentes e também deletar.
+A API tem um total de 7 endpoints, sendo em volta principalmente do usuário e admin, onde o usuário pode cadastrar e logar, já o admin pode adicionar novas ONGs, editar as ONGs já existentes e também deletar.
 
 ## Rotas que não precisam de autenticação
 
