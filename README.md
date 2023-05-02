@@ -211,6 +211,29 @@ Caso tudo dê certo, a resposta será assim:
   }
 ```
 
+### Doar para ONG
+`PATCH /ongs/:ongId - FORMATO DA REQUISIÇÃO`
+
+```json
+[
+  {
+    "donation": 10,
+    "userId": 1,
+  }
+]
+```
+Caso tudo dê certo, a resposta será assim:
+`PATCH /ongs/:ongId - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+	"donation": 10,
+	"userId": 1,
+	"id": 2
+  }
+```
+
+
 ### Deletar ONG
 
 `DELETE /ongs/:ongId - FORMATO DA REQUISIÇÃO`
