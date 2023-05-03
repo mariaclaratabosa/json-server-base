@@ -21,8 +21,7 @@
       "description": "É um projeto conservacionista brasileiro que atua na preservação das tartarugas-marinhas ameaçadas de extinção. É uma entidade de direito privado, sem fins lucrativos e fica sediado na Praia do Forte, no município de Mata de São João, no interior do estado da Bahia.",
       "link": "https://www.tamar.org.br/",
       "logo": "https://www.tamar.org.br/imagens/logo_tamar.jpg",
-      "donation": 0,
-      "userId": 2
+      "donation": 0
     },
     {
       "name": "PeTA",
@@ -30,8 +29,7 @@
       "description": "People for the Ethical Treatment of Animals (PeTA), em português: Pessoas pelo Tratamento Ético dos Animais, é uma organização não governamental de ambiente (ONGA) fundada em 1980, a qual já conta com mais de 2 milhões de membros e se dedica aos direitos animais, tendo como lema: 'Animais não são nossos para comer, vestir, usar em experiências ou para entretenimento' .",
       "link": "https://www.peta.org/",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Peta_logo.svg/250px-Peta_logo.svg.png",
-      "donation": 0,
-      "userId": 2
+      "donation": 0
     },
     {
       "name": "AMPARA animal",
@@ -39,8 +37,7 @@
       "description": "Lutamos contra o abandono de animais domésticos e a negligência com os animais silvestres da nossa fauna. Não medimos esforços para amparar e dar suporte onde for necessário. Seja com suprimentos, tratamentos, campanhas de conscientização, ou até ir mata adentro para salvar vidas.",
       "link": "https://amparanimal.org.br/",
       "logo": "https://colabore-fichas-production.s3.amazonaws.com/og_image/1188/images/1249/og_image/main_AMPARAPrancheta_8_c%C3%B3pia_9_3x.png",
-      "donation": 0,
-      "userId": 2
+      "donation": 0
     },
     {
       "name": "ProAnima",
@@ -48,8 +45,7 @@
       "description": "Constituída em 2003, a ProAnima é uma organização da sociedade civil de caráter socioambientalista, mantida com trabalho voluntário e cujos objetivos estratégicos são concretizados por meio de ações organizadas em quatro eixos: Ativismo, Política Pública, Educação e Proteção. As ações da ProAnima são direcionadas às diferentes espécies de animais, sejam eles domésticos - cães, gatos e cavalos -, silvestres nativos e não nativos, do plantel de jardins zoológicos e de santuários.",
       "link": "https://www.proanima.org.br/",
       "logo": "https://d1fdloi71mui9q.cloudfront.net/SaRteLVuTpunUOLnRPDc_7bd9a4d57671a295f6aa27177dfdaaa6.png",
-      "donation": 0,
-      "userId": 2
+      "donation": 0
     },
     {
       "name": "Cão sem dono",
@@ -57,8 +53,7 @@
       "description": "O Cão Sem Dono é uma ONG (Organização Não Governamental), sem fins lucrativos, e que nasceu de um grande sonho do seu atual presidente: tirar o maior número possível de animais das ruas, dar tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.",
       "link": "https://www.caosemdono.com.br/",
       "logo": "https://static.wixstatic.com/media/eee5c2_c2db42dfbd6646d3b0a6417facf679ec~mv2.png/v1/fill/w_260,h_142,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20laranja_edited_edited_edited.png",
-      "donation": 0,
-      "userId": 2
+      "donation": 0
     },
     {
       "name": "Focinhos de luz",
@@ -66,8 +61,7 @@
       "description": "A Associação Focinhos de Luz é uma organização sem fins lucrativos que luta pela reintrodução de animais abandonados à sociedade. A nossa casa de passagem abriga em torno de 100 animais, que passam por cuidados até estarem aptos a participarem de feiras de adoção.",
       "link": "https://www.focinhosdeluz.com/",
       "logo": "https://www.focinhosdeluz.com/wp-content/themes/tema-principal/assets/imagens/logo-focinhos-de-luz-3.png",
-      "donation": 0,
-      "userId": 2
+      "donation": 0
     }
   ]
 }
